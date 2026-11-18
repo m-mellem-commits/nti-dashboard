@@ -1,0 +1,309 @@
+{
+ "updated": "2026-11-18T20:45:00Z",
+ "status": "pre-race",
+ "race": {
+  "name": "World's Toughest Row – Atlantic 2026",
+  "start": "2026-12-12T12:00:00Z",
+  "startNote": "Planlagt start 12.12.2026 (klokkeslett ikke bekreftet; arrangøren kan utsette ved dårlig vær)",
+  "startPoint": {
+   "name": "San Sebastián de La Gomera",
+   "lat": 28.088,
+   "lon": -17.108
+  },
+  "finishPoint": {
+   "name": "Nelson's Dockyard, English Harbour, Antigua",
+   "lat": 17.007,
+   "lon": -61.762
+  },
+  "trackerUrl": null
+ },
+ "team": {
+  "name": "Norwegian Team India",
+  "boat": "AMPHITRITE",
+  "mmsi": "232044112",
+  "class": "Fours",
+  "goal": "Slå den norske rekorden på 36 dager",
+  "instagram": "https://www.instagram.com/worlds_toughest_row_nti/"
+ },
+ "positions": [],
+ "lastKnown": {
+  "source": "MarineTraffic (AIS)",
+  "area": "Skagerrak",
+  "time": "2026-09-11T06:42:00Z",
+  "speedKn": 0,
+  "note": "Siste AIS-melding er fra 11.09.2026. Nøyaktig posisjon er låst bak betalingsmur hos MarineTraffic."
+ },
+ "fleet": [
+  {
+   "name": "Talia (ITA)",
+   "cls": "Solo"
+  },
+  {
+   "name": "The Jolly Roger (SUI)",
+   "cls": "Solo"
+  },
+  {
+   "name": "Out of the Ordinary (CA)",
+   "cls": "Solo"
+  },
+  {
+   "name": "C'Oar'nish Maid (UK)",
+   "cls": "Solo"
+  },
+  {
+   "name": "Firefly (UK)",
+   "cls": "Solo"
+  },
+  {
+   "name": "Renate Solo (NL)",
+   "cls": "Solo"
+  },
+  {
+   "name": "Beyond the Blue (UK)",
+   "cls": "Pairs"
+  },
+  {
+   "name": "One Row Live It (UK)",
+   "cls": "Pairs"
+  },
+  {
+   "name": "The Entrepreneur Ship (UK)",
+   "cls": "Pairs"
+  },
+  {
+   "name": "Claverdon Lions (UK)",
+   "cls": "Pairs"
+  },
+  {
+   "name": "The Exploring Duo (UK)",
+   "cls": "Pairs"
+  },
+  {
+   "name": "The Daisy Voyage (IRL)",
+   "cls": "Pairs"
+  },
+  {
+   "name": "gROW (UK)",
+   "cls": "Pairs"
+  },
+  {
+   "name": "Coastal Commanders (UK)",
+   "cls": "Trios"
+  },
+  {
+   "name": "Grannies on Waves (NL)",
+   "cls": "Trios"
+  },
+  {
+   "name": "Just Row With It (UK)",
+   "cls": "Trios"
+  },
+  {
+   "name": "Blue Star Rowing (UK)",
+   "cls": "Trios"
+  },
+  {
+   "name": "Wrekin OARsome (UK)",
+   "cls": "Trios"
+  },
+  {
+   "name": "Trasna na dTonnta (IRL)",
+   "cls": "Trios"
+  },
+  {
+   "name": "Saltire Tides (SCO)",
+   "cls": "Trios"
+  },
+  {
+   "name": "Team Spirit (UK)",
+   "cls": "Trios"
+  },
+  {
+   "name": "Atlantx (CH)",
+   "cls": "Fours"
+  },
+  {
+   "name": "You Row Girl (UK, AUS & NZ)",
+   "cls": "Fours"
+  },
+  {
+   "name": "Oxford Data Plan Through The Blue",
+   "cls": "Fours"
+  },
+  {
+   "name": "United4Hope (SUI)",
+   "cls": "Fours"
+  },
+  {
+   "name": "Oardinary Crew (UK)",
+   "cls": "Fours"
+  },
+  {
+   "name": "Gurkha Salty Sappers (NPL)",
+   "cls": "Fours"
+  },
+  {
+   "name": "Rogue Wave (UK)",
+   "cls": "Fours"
+  },
+  {
+   "name": "Norwegian Team India (NOR)",
+   "cls": "Fours",
+   "isTeam": true
+  },
+  {
+   "name": "Row4Tomorrow (GER & PL)",
+   "cls": "Fours"
+  },
+  {
+   "name": "Remiges V (UK)",
+   "cls": "Fours"
+  },
+  {
+   "name": "Atlantic Waterbirds (AUS)",
+   "cls": "Fours"
+  },
+  {
+   "name": "Row for Police Veterans (DEN)",
+   "cls": "Fours"
+  },
+  {
+   "name": "Blades of Oary (AUS)",
+   "cls": "Fours"
+  },
+  {
+   "name": "The Racing Mos (AUS, UK & NZ)",
+   "cls": "Fours"
+  },
+  {
+   "name": "Atlantic Aardvarks (IRE & UK)",
+   "cls": "Fours"
+  },
+  {
+   "name": "The Seabirds (SUI & USA)",
+   "cls": "Fours"
+  },
+  {
+   "name": "Atlantic Rowmance (DEU)",
+   "cls": "Fours"
+  },
+  {
+   "name": "HMS Oardacious (UK)",
+   "cls": "Fours"
+  },
+  {
+   "name": "Force Atlantic (UK)",
+   "cls": "Fives"
+  }
+ ],
+ "weather": {
+  "location": "San Sebastián de La Gomera (startstedet)",
+  "lat": 28.09,
+  "lon": -17.11,
+  "fetched": "2026-11-18T20:30:00Z",
+  "current": {
+   "temp": 22.9,
+   "wind": 4.3,
+   "gust": 10.1,
+   "windDir": 335,
+   "code": 1,
+   "cloud": 45
+  },
+  "daily": [
+   {
+    "date": "2026-11-18",
+    "code": 2,
+    "tmax": 25.5,
+    "tmin": 21.4,
+    "windMax": 4.5,
+    "windDir": 334
+   },
+   {
+    "date": "2026-11-19",
+    "code": 3,
+    "tmax": 25.5,
+    "tmin": 21.4,
+    "windMax": 4.1,
+    "windDir": 343
+   },
+   {
+    "date": "2026-11-20",
+    "code": 2,
+    "tmax": 25.3,
+    "tmin": 20.5,
+    "windMax": 3.3,
+    "windDir": 170
+   },
+   {
+    "date": "2026-11-21",
+    "code": 3,
+    "tmax": 26.1,
+    "tmin": 20.9,
+    "windMax": 4.3,
+    "windDir": 333
+   }
+  ]
+ },
+ "news": {
+  "organizer": [
+   {
+    "date": "2026-11-03",
+    "text": "Gratulerer med 45-årsjubileet for uavhengighet til Antigua og Barbuda – målgangen for løpet.",
+    "url": "https://www.instagram.com/worlds.toughest.row/p/DfSSAQUiOdz/",
+    "source": "Instagram @worlds.toughest.row"
+   },
+   {
+    "date": "2026-10-19",
+    "text": "Kan El Niño endre vindene roerne er avhengige av?",
+    "url": "https://www.instagram.com/worlds.toughest.row/p/Deqzjf1iOTO/",
+    "source": "Instagram @worlds.toughest.row"
+   },
+   {
+    "date": "2026-10-11",
+    "text": "Lagpresentasjoner (Team Announcements).",
+    "url": "https://www.instagram.com/worlds.toughest.row/p/DeWSW74CK-h/",
+    "source": "Instagram @worlds.toughest.row"
+   },
+   {
+    "date": "2026-11-18",
+    "text": "Startlisten for Atlanterhavet 2026 har 40 lag: 6 solo, 7 par, 8 trioer, 18 firere og 1 femmer. Start 12. desember.",
+    "url": "https://www.worldstoughestrow.com/the-atlantic/2026-race-entrants/",
+    "source": "worldstoughestrow.com"
+   }
+  ],
+  "team": [
+   {
+    "date": "2026-11-07",
+    "text": "«A first in Norway!» – video fra et roarrangement med laget.",
+    "url": "https://www.instagram.com/worlds_toughest_row_nti/reel/Dfcf_AjMoUZ/",
+    "source": "Instagram @worlds_toughest_row_nti"
+   },
+   {
+    "date": "2026-11-05",
+    "text": "«THE ULTIMATE CHALLENGE!» – siste innlegg fra laget (Oslo).",
+    "url": "https://www.instagram.com/worlds_toughest_row_nti/p/DfXAIrijNXl/",
+    "source": "Instagram @worlds_toughest_row_nti"
+   },
+   {
+    "date": null,
+    "text": "Fire gutter som skal ro ca. 4 800 km fra La Gomera til Antigua – målet er å slå den norske rekorden på 36 dager.",
+    "url": "https://www.instagram.com/worlds_toughest_row_nti/",
+    "source": "Instagram-profil / LinkedIn"
+   }
+  ]
+ },
+ "notes": [
+  "Instagram viser bare siste innlegg uten innlogging. Logg inn i den innebygde nettleseren i Claude-appen for å få med flere innlegg.",
+  "Posisjon, fart og plassering fylles inn når løpet starter og arrangørens tracker (YB Tracking) er åpen."
+ ],
+ "latestPost": {
+  "account": "worlds_toughest_row_nti",
+  "url": "https://www.instagram.com/worlds_toughest_row_nti/reel/Dfcf_AjMoUZ/",
+  "date": "2026-11-07",
+  "type": "reel",
+  "caption": "🇳🇴 A FIRST IN NORWAY! 🚣‍♂️🔥",
+  "likes": 262,
+  "comments": 12,
+  "image": "latest-post.jpg"
+ }
+}
