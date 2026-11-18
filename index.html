@@ -303,6 +303,32 @@
     "url": "https://www.instagram.com/worlds_toughest_row_nti/",
     "source": "Instagram-profil / LinkedIn"
    }
+  ],
+  "sponsor": [
+   {
+    "date": "2026-08-17",
+    "text": "Delphi går inn som partner med Norwegian Team India – målet er pallplass og norsk rekord.",
+    "url": "https://www.delphi.no/nyheter-innsikt/tema/investeringsfilosofi/fire-fedre-skal-ro-over-atlanteren--med-delphi-i-ryggen/",
+    "source": "delphi.no"
+   },
+   {
+    "date": null,
+    "text": "På havet kalles det navigasjon – i markedet kalles det momentum: Delphi sammenligner roerne med sin forvaltningsstil.",
+    "url": "https://www.delphi.no/nyheter-innsikt/tema/investeringsfilosofi/pa-havet-kalles-det-navigasjon.-i-markedet-kalles-det-momentum/",
+    "source": "delphi.no"
+   },
+   {
+    "date": "2026-09-14",
+    "text": "Video om roturen på 4 800 km over Atlanteren.",
+    "url": "https://www.instagram.com/delphi_fondene/reel/DdRT0ZOtKkn/",
+    "source": "Instagram @delphi_fondene"
+   },
+   {
+    "date": "2026-09-13",
+    "text": "«Living the brand» – video fra Holmen Fjordhotell.",
+    "url": "https://www.instagram.com/delphi_fondene/reel/DdOpBQ_t5re/",
+    "source": "Instagram @delphi_fondene"
+   }
   ]
  },
  "notes": [
@@ -521,9 +547,15 @@
     </div>
   </section>
 
-  <section class="card" style="margin-bottom:16px">
-    <h2>Nyheter fra arrangøren</h2>
-    <ul class="news" id="newsOrg"></ul>
+  <section class="grid2b">
+    <div class="card">
+      <h2>Nyheter fra arrangøren</h2>
+      <ul class="news" id="newsOrg"></ul>
+    </div>
+    <div class="card">
+      <h2>Fra sponsorene</h2>
+      <ul class="news" id="newsSponsor"></ul>
+    </div>
   </section>
 
   <footer id="foot"></footer>
@@ -649,10 +681,11 @@ function render(D){
   renderIg(D.latestPost);
   renderNews(el('newsTeam'), D.news.team);
   renderNews(el('newsOrg'), D.news.organizer);
+  renderNews(el('newsSponsor'), D.news.sponsor);
 
   // Footer
   const ft = el('foot'); ft.innerHTML='';
-  const srcs = [['worldstoughestrow.com','https://www.worldstoughestrow.com/'],['Instagram @worlds_toughest_row_nti','https://www.instagram.com/worlds_toughest_row_nti/'],['Instagram @worlds.toughest.row','https://www.instagram.com/worlds.toughest.row/'],['MarineTraffic – AMPHITRITE','https://www.marinetraffic.com/en/ais/details/ships/shipid:7200960'],['Open-Meteo (vær)','https://open-meteo.com/']];
+  const srcs = [['worldstoughestrow.com','https://www.worldstoughestrow.com/'],['Instagram @worlds_toughest_row_nti','https://www.instagram.com/worlds_toughest_row_nti/'],['Instagram @worlds.toughest.row','https://www.instagram.com/worlds.toughest.row/'],['MarineTraffic – AMPHITRITE','https://www.marinetraffic.com/en/ais/details/ships/shipid:7200960'],['Open-Meteo (vær)','https://open-meteo.com/'],['Delphi Fondene','https://www.delphi.no/']];
   if(D.race.trackerUrl) srcs.unshift(['Offisiell tracker (YB)', D.race.trackerUrl]);
   const p=document.createElement('p'); p.append('Kilder: ');
   srcs.forEach(([n,u],i)=>{const a=document.createElement('a');a.href=u;a.target='_blank';a.rel='noopener';a.textContent=n;p.append(a); if(i<srcs.length-1)p.append(' · ');});
